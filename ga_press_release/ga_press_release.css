@@ -1,0 +1,43 @@
+
+
+body {
+  background-color: Linen;
+  font-family: sans-serif;
+}
+
+header {
+background-color: LightGray;
+font-size:50px;
+padding: 10px;
+text-align: center;
+}
+
+h1 {
+
+  font-size: 14px;
+}
+
+
+p {
+    font-weight: bold;
+    color: #333333;
+}
+
+ul{
+  list-style: square;
+}
+
+li { color: #ff0033;
+}
+
+a{
+text-decoration: none;
+
+}
+
+#thetoptop {
+
+font-weight:bold;
+color: red ;
+
+}
