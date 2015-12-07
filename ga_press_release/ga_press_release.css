@@ -10,34 +10,39 @@ background-color: LightGray;
 font-size:50px;
 padding: 10px;
 text-align: center;
+margin: 20px;
 }
 
-h1 {
-
-  font-size: 14px;
+footer{
+  text-align: center;
 }
 
 
 p {
-    font-weight: bold;
-    color: #333333;
+    margin: 20px;
+    color: #333333
+      text-align: center;
 }
 
 ul{
   list-style: square;
 }
 
-li { color: #ff0033;
+li {
+  color: lightslategray;
+  margin: 8px;
 }
 
 a{
+color: orangered;
 text-decoration: none;
-
 }
 
-#thetoptop {
+a:hover {
+  color: aliceblue;
+}
 
-font-weight:bold;
-color: red ;
-
+}
+#thetoptop{
+  color: MediumPurple;
 }
