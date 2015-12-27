@@ -1,19 +1,25 @@
 header {
   font-family: Georgia, serif;
   font-size: 48px;
-  font-color: #333333;
+  color: #333333;
   font-weight: bold;
   margin: auto;
   text-align: center;
   letter-spacing: -4px;
 }
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(fontawesome-webfont.ttf);
+}
+
 body {
   width: 800px;
   font-family: Helvetica, sans-serif;
   margin: auto;
 }
 .textcontainer {
-  width: 500px;
+  width: 480px;
   margin: 10px;
   margin-top:50px;
   float: right;
@@ -30,12 +36,17 @@ img {
 .profilepic {
   width: 200px;
   float: left;
-  margin-top: 60px;
+  margin-top: 50px;
 }
+.profilesection {
+  width: 200px;
+  float: left;
+}
+
 h2 {
   font-family: Helvetica, sans-serif;
   font-size: 24px;
-  font-color: #333333;
+  color: #333333;
   font-weight: bold;
   margin: 18px;
   text-align: center;
@@ -44,14 +55,13 @@ h2 {
 p {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
-  font-color: #333333;
-  margin: 18px;
+  color: #333333;
+  margin: 8px;
   text-align: center;
   margin-bottom: 30px;
+  text-decoration: none;
 }
-.workstext {
-  text-align: left;
-}
+
 a {
   font-family: Helvetica, sans-serif;
   padding: 8px;
@@ -59,7 +69,7 @@ a {
 }
 .cta {
   font-weight: bold;
-  color: Deep Violet;
+  color: DeepViolet;
   border: 3px solid #000000;
   padding: 8px;
   width: 200px;
@@ -68,10 +78,19 @@ a {
 
 hr {
   width: 500px;
-  margin: auto;
+  margin:auto;
+  margin-bottom: 18px;
 }
 li {
   font-size: 16px;
-  font-weight: bold;
   margin: 20px;
+}
+
+.listheader{
+  font-weight:bold;
+  text-align: left;
+  font-size: 18px;
+}
+
+#top{
 }
