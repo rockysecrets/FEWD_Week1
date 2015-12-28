@@ -8,11 +8,6 @@ header {
   letter-spacing: -4px;
 }
 
-@font-face {
-    font-family: FontAwesome;
-    src: url(fontawesome-webfont.ttf);
-}
-
 body {
   width: 800px;
   font-family: Helvetica, sans-serif;
@@ -66,14 +61,23 @@ a {
   font-family: Helvetica, sans-serif;
   padding: 8px;
   text-decoration: none;
+  color: #000000;
 }
 .cta {
   font-weight: bold;
-  color: DeepViolet;
+  color: #000000;
   border: 3px solid #000000;
   padding: 8px;
   width: 200px;
   text-align: center;
+}
+
+a:visited {
+    color: LightGrey;
+}
+
+a:hover {
+    background-color: Grey;
 }
 
 hr {
